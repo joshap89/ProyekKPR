@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityKPR" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/banner"
+            />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KALKULATOR KPR"
+            android:id="@+id/kal"
+            android:layout_gravity="center_horizontal"
+            android:onClick="ProsesKalkulator"
+            android:background="#673AB7"
+            android:textColor="#76FF03"
+            android:textSize="25dp"
+            />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PEMBIAYAAN KPR"
+                android:id="@+id/PinjamanKPR"
+                android:onClick="PinjamanKPR"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="#673AB7"
+                android:textColor="#76FF03"
+                android:textSize="25dp"
+                />
+
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PEMBIAYAAN PENSIUN"
+                android:id="@+id/pensiun"
+                android:onClick="PinjamanPensiun"
+                android:layout_marginBottom="5dp"
+                android:background="#673AB7"
+                android:textColor="#76FF03"
+                android:textSize="25dp"
+                />
+
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SYARAT PEMBIAYAAN"
+                android:id="@+id/syarat"
+                android:onClick="Persyaratan"
+                android:background="#673AB7"
+                android:layout_marginBottom="2dp"
+                android:textColor="#76FF03"
+                android:textSize="25dp"
+                />
+                <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALKULATOR FUNDING"
+                android:id="@+id/ilustrasiBaghas"
+                android:onClick="BaghasIlustrasi"
+                android:background="#673AB7"
+                android:layout_marginBottom="2dp"
+                android:textColor="#76FF03"
+                android:textSize="25dp"
+                />
+
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_vertical"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Joko Saputra-20121504-BMI Surabaya 2015"
+            android:textColor="#673AB7"
+            android:background="#76FF03"
+            android:gravity="center"
+
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

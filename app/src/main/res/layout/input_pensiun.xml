@@ -1,0 +1,174 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#673AB7"
+    tools:context=".MainActivityKPR">
+
+    <TextView
+        android:text="PEMBIAYAAN PENSIUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/PembiayaanPensiun"
+        android:textColor="#76FF03"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/gajiPensiun"
+            android:text="@string/gaji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#76FF03"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/inGajiPensiun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#ff5722"
+            android:textStyle="bold"
+            android:inputType="phone"
+            />
+
+        <TextView
+            android:id="@+id/datProdukPensiun"
+            android:text="@string/produk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#76FF03"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <Spinner
+                android:id="@+id/ProdukPensiun"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/isi_spinner"
+                android:textSize="15dp"
+                android:textColor="#ff5722"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+               />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/jwPensiun"
+            android:text="@string/jw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#76FF03"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/inJWPensiun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff5722"
+            android:textStyle="bold"
+            android:inputType="phone"
+            />
+
+        <TextView
+            android:id="@+id/yieldPensiun"
+            android:text="@string/yield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#76FF03"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/inYieldPensiun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff5722"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:inputType="phone"
+            />
+
+         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:paddingLeft="40dp"
+            android:layout_gravity="center"
+
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:layout_marginRight="10dp"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proses"
+                    android:id="@+id/prosesPensiun"
+                    android:onClick="ProsesPensiun"
+                    android:gravity="center"
+                    android:background="#76FF03"
+                    android:textColor="#673AB7"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="1"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KELUAR"
+                    android:id="@+id/exit"
+                    android:onClick="exit"
+                    android:gravity="center"
+                    android:background="#76FF03"
+                    android:textColor="#673AB7"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

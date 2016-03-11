@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#76FF03"
+    tools:context=".MainActivityKPR"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:text="HASIL SIMULASI PENSIUN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/hasilPensiun"
+        android:textColor="#673AB7"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:text="@string/gajipensiun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#673AB7"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:id="@+id/TampilanGajiPensiun"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ff5722"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:text="@string/produk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#673AB7"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/TampilanProdukPinjaman"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff5722"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:text="@string/angsuranmaksimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#673AB7"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/TampilanAngsuranPensiun"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ff5722"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+        android:text="@string/pinjaman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#673AB7"
+        android:layout_marginTop="15dp"
+        />
+    <TextView
+        android:id="@+id/TampilanPinjamanPensiun"
+        android:text=" "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textColor="#ff5722"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        android:id="@+id/back"
+        android:gravity="center"
+        android:background="#673AB7"
+        android:textColor="#76FF03"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+
+        />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Consumer BMI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="jw">Jangka Waktu (Bulan) :</string>
+    <string name="yield">Yield (%) :</string>
+    <string name="gt">Total Gaji Tetap (Rp.) :</string>
+    <string name="gtt">Total Gaji Tidak Tetap (Rp.) :</string>
+    <string name="pinjamanbank">Total Angsuran di Bank Lain (Rp.) :</string>
+    <string name="totalgaji">Total Gaji (Rp.) :</string>
+    <string name="totalangsuran">Total Angsuran Berjalan (Rp.) :</string>
+    <string name="angsurandiakui">Angsuran Yang Diakui (Rp.) :</string>
+    <string name="totalangsurandiakui">Total Angsuran Yang Diakui (Rp.) :</string>
+    <string name="maksimalpinjaman">Maksimal Pinjaman (Rp.) :</string>
+    <string name="gaji">Masukkan Gaji (Rp.) :</string>
+    <string name="produk">Produk Pembiayaan :</string>
+    <string name="gajipensiun">Gaji Pensiun (Rp.) :</string>
+    <string name="angsuranmaksimal">Angsuran Maksimal (Rp.) :</string>
+    <string name="pinjaman">Pinjaman (Rp.) :</string>
+    <string name="masukkanpinjaman">Masukkan Pinjaman (Rp.) :</string>
+    <string name="angsuran">Angsuran (Rp.) :</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="isi_spinner">
+        <item>BARU</item>
+        <item>TOP UP</item>
+        <item>TAKE OVER</item>
+    </string-array>
+    <string name="hpm">Hi Per Mil :</string>
+    <string name="nominal">Nominal Fund (Rp) :</string>
+    <string name="nisbah">Nisbah Nasabah :</string>
+    <string name="jh">Jumlah Hari :</string>
+    <string name="jumlahPerhitungan">Jumlah Hari Bulan Perhitungan :</string>
+    <string name="BrutoBagHas">Bagi Hasi Yang Diterima (Rp) :</string>
+    <string name="Pajak">Pajak Bagi Hasil (Rp) :</string>
+    <string name="NetBagHas">Bagi Hasil Net (Rp) :</string>
+    <string name="Er">Equivalent Rate Setara (%) :</string>
+</resources>
